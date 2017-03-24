@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html ng-app="google_map">
+
+<head>
+    <meta charset="utf-8">
+    <title>Qui sommes-nous ? - TOTEM Mobi</title>
+    <meta name="keywords" content="Se déplacer à Marseille, location voiture Marseille,TOTEM mobi, Twizy, voiture électrique, véhicule électrique, location pas chère, Marseille, mobilité urbaine, location de voitures électriques, location de Twizy, autopartage, auto-partage, voiture libre">
+    <meta name="description" content="Accueil du site TOTEM mobi, location de véhicules électriques Renault Twizy à courte et moyenne durée">
+    <!-- les links ci-dessous sont pour le style, ne pas toucher-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- == ici commence le contenu visuel de la page ==-->
+    <div class="container-fluid page-accueil">
+        <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+        <header class="header-accueil">
+            <!-- DEBUT en-tête de page-->
+
+            <!-- DEBUT barre de NAVIGATION-->
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo-totem.png" alt="logo totem mobi"></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Qui sommes-nous ?</a></li>
+                        <li><a href="entreprises.html">Vous êtes une entreprise</a></li>
+                        <li><a href="annonceurs.html">Vous êtes un annonceur</a></li>
+                        <!--  <li><a href="#blog">Le Blog de TOTEM</a></li> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plus... <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="id_mdp.html">Changer de mot de passe/identifiants</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- FIN barre de NAVIGATION-->
+
+        </header>
+        <!-- FIN en-tête de page-->
+
+        <!-- DEBUT intro/slider-->
+        <div class="bg-intro" id="intro">
+
+            <!-- DEBUT Partie Encart GAUCHE -->
+            <div class="row text-center">
+                <div class="col-sm-offset-8 col-sm-3 well">
+                    <!-- LOGO TOTEM mobi et soustitres -->
+                    <legend>
+                        <div class="text-center row">
+                            <a href="index.html"><img class="img-logo_intro" src="images/logo_totem_mobi.png" alt="logo totem mobi"></a>
+                            <h2 class="soustitre-intro">Location de Twizy en libre-service.</h2>
+                            <h3 class="tribu"><span class="texte_en_vert">Rejoignez la tribu TOTEM mobi</span></h3>
+                        </div>
+                    </legend>
+
+                    <!-- DEBUT Bouton decouvrir/abonnement TOTEM Mobi -->
+                    <div class="row boutons_intro">
+                        <!-- Bouton decouvrir TOTEM Mobi -->
+                        <div id="decouvrir" class="col-sm-12">
+                            <a href="#comment_ca_marche" class="scroll scrollspy"><button type="button" name="button" class="btn btn-lg btn-default btn-block bouton-s_abonner scroll scrollspy bouton">JE DÉCOUVRE</button></a>
+                        </div>
+
+                        <!-- Bouton offre promo TOTEM Mobi -->
+                        <div id="promo" class="col-sm-12">
+                            <a href="#offre_promo" class="scroll scrollspy"><button type="button" name="button" class="btn btn-lg btn-default  btn-block bouton-s_abonner bouton-promo bouton">OFFRE DU MOMENT</button></a>
+                        </div>
+
+                        <!-- Bouton je m abonne/je m inscris TOTEM Mobi -->
+                        <div id="promo" class="col-sm-12">
+                            <a href="vous-abonner.html"><button type="button" name="button" class="btn btn-lg btn-default btn-success btn-block bouton-s_abonner bouton">JE M'INSCRIS</button></a>
+                        </div>
+                    </div>
+                    <!-- FIN Boutons decouvrir/promo/abonnement TOTEM Mobi -->
+                </div>
+                <!-- FIN encart -->
+            </div>
+            <!-- FIN encart partie GAUCHE -->
+
+            <!-- Reseaux sociaux-->
+            <div class="row reseaux_sociaux text-center">
+                <div class="col-sm-offset-8 col-sm-3">
+
+                    <!-- Facebook-->
+                    <a href="http://www.facebook.com/totemmobi"><i class="fa fa-facebook intro-reseaux"></i></a>
+
+                    <!-- Twitter-->
+                    <a href="https://twitter.com/TOTEMmobi?lang=fr"><i class="fa fa-twitter intro-reseaux"></i></a>
+
+                    <!-- Instagram-->
+                    <a href="https://www.instagram.com/totem.mobi/"><i class="fa fa-instagram intro-reseaux"></i></a>
+
+                    <!-- Linkedin-->
+                    <a href="https://www.linkedin.com/company/totem-mobi"><i class="fa fa-linkedin intro-reseaux"></i></a>
+
+                    <!-- Mail-->
+                    <a href="mailto:contact@totem-mobi.fr"><i class="fa fa-envelope-o intro-reseaux"></i></a>
+                </div>
+            </div>
+            <!-- FIN Reseaux sociaux-->
+        </div>
+        <!-- FIN intro/slider-->
+
+        <!-- DEBUT Offre Promos-->
+        <div class="container-fluid section-offre_promo" id="offre_promo">
+            <div class="container fade">
+
+                <div class="col-md-6 col-sm-6 image-promo">
+                    <!-- Image Offre Promos-->
+                    <img src="images/flyer-promo.jpg" alt="image flyer promo totem" class="img-responsive ">
+                </div>
+                <!-- FIN image/s'inscrire Offre Promos-->
+
+                <!-- Texte Offre Promos-->
+                <div class="col-md-6 texte-offre_promo text-center">
+
+                    <!-- Titre Offre Promos-->
+                    <div class="row text-center">
+                        <h2>OFFRE DE PARRAINAGE</h2>
+                        <h3 class="text-center soustitre-offre_promo"><span class="texte_en_vert">DEVENEZ CHEF DE TRIBU !</span></h3>
+                    </div>
+
+                    <p>TOTEM lance une opération de parrainage: Pour chaque parrainage, recevez <span class="texte_en_rouge">10€ de crédit mobilité</span> et faites bénéficier votre filleul(e) d'une <span class="texte_en_vert">remise de 10€</span> sur
+                        son inscription ! C'est le moment de se faire des amis ! </p>
+                    <p>Alors, qui sera le meilleur parrain ? :-) </p>
+
+                    <div class="row">
+                        <p>Plus d’information: chefdetribu@totem-mobi.fr </p>
+                    </div>
+
+                    <div class="row">
+                        <p>Offre valable jusqu’au 31 mars 2017.</p>
+                    </div>
+
+                    <!-- Bouton abonnement TOTEM Mobi -->
+                    <div class="row text-center">
+                        <a href="vous-abonner.html"><button type="button" name="button" class="btn btn-default bouton-s_abonner">JE M'INSCRIS</button></a>
+                    </div>
+                </div>
+                <!-- FIN texte Offre Promos-->
+
+            </div>
+            <!-- FIN contenu section : Offre Promos-->
+            <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="travelMessageCurve"><polygon points="1280 0 1280 70 0 70" fill="white" class="polygon"></polygon></svg>
+        </div>
+        <!-- FIN Section : Offre Promos-->
+
+        <!-- GROS TITRE PARTIE JE DECOUVRETitre Qu'est ce que TOTEM Mobi ?-->
+        <div class="row" id="je_decouvre">
+            <h2 class="text-center titre-comment_ca_marche"><span class="texte_en_vert">TOTEM mobi, c'est quoi ?</span></h2>
+        </div>
+
+        <!-- DEBUT Qu'est ce que TOTEM Mobi ?-->
+        <div class="container-fluid section-qu_est_ce_que_totem">
+            <div class="container fade">
+
+                <!-- Titre Qu'est ce que TOTEM Mobi ?-->
+                <div class="row">
+                    <h3 class="text-center titre-qu_est_ce_que_totem">location de véhicule électrique en libre-service </h3>
+                </div>
+
+                <div class="row">
+
+                    <!-- Image Qu'est ce que TOTEM Mobi ?-->
+                    <div class="col-md-4 text-right">
+                        <img src="images/img-03.jpg" alt="image totem 01" class="img-rounded img-responsive">
+                    </div>
+
+                    <!-- Texte Qu'est ce que TOTEM Mobi ?-->
+                    <div class="col-md-8 texte-qu_est_ce_que_totem">
+
+                        <p>TOTEM mobi est un <strong>service d'autopartage de Twizy</strong> accessible à tous les conducteurs ayant le permis B pour <strong>1€ TTC le quart d'heure en 24/7</strong> sur Marseille, Marignane, Cassis et Aubagne (ZI les Paluds).
+                            TOTEM mobi permet aux adhérents de <strong>louer</strong> des Twizy en <strong>libre-service</strong> grâce à une <strong>application mobile</strong>. En plus, le stationnement en surface est gratuit pour les utilisateurs des
+                            Twizy TOTEM.</p>
+
+                        <p>Les Twizy sont disponibles <strong>en autopartage</strong> dans la ville. Afin de géolocaliser et de réserver une Twizy, télécharger l'application TOTEM.mobi, disponible sur <a href="https://itunes.apple.com/fr/app/totem.mobi/id778512885?mt=8"><span><strong>iOS</strong></span></a>                            et sur <a href="https://itunes.apple.com/fr/app/totem.mobi/id778512885?mt=8"><span><strong>Androïd</strong></span></a>.</p>
+                        <p> En plus, le <strong>stationnement</strong> en surface est <strong>gratuit</strong> pour les utilisateurs des Twizy TOTEM.</p>
+                        <!-- Bouton abonnement TOTEM Mobi -->
+                        <div class="row text-center">
+                            <a href="vous-abonner.html"><button type="button" name="button" class="btn btn-default bouton-s_abonner">JE M'INSCRIS</button></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- FIN contenu section Qu'est ce que TOTEM Mobi ?-->
+            </div>
+            <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve2"><polygon points="1280 0 1280 70 0 70" fill="#eee" class="polygon"></polygon></svg>
+        </div>
+        <!-- FIN Section : Qu'est ce que TOTEM Mobi ?-->
+
+        <!-- DEBUT Comment ca marche ?-->
+        <div class="container-fluid section-comment_ca_marche">
+            <div class="container fade">
+
+                <!-- Titre concept TOTEM Mobi -->
+                <div class="row">
+                    <h3 class="text-center titre-comment_ca_marche"><span class="texte_en_vert">Comment fonctionne TOTEM Mobi ?</span></h3>
+                </div>
+
+                <!-- Texte Comment ca marche ?-->
+                <div class="row text-center texte-comment_ca_marche">
+                    <div class="col-xs-3 col-md-3">
+                        <div class="row">
+                            <img src="images/number-one.svg" class="numbers-icons" alt="number 1">
+                        </div>
+                        <p>Je m’inscris sur le site internet afin de profiter du service de location en libre service TOTEM mobi.</p>
+                        <!-- Bouton abonnement TOTEM Mobi -->
+                        <div class="row text-center">
+                            <a href="vous-abonner.html"><button type="button" name="button" class="btn btn-default bouton-s_abonner">JE M'INSCRIS</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-md-3">
+                        <div class="row">
+                            <img src="images/number-two.svg" class="numbers-icons" alt="number 2">
+                        </div>
+                        <p>Je télécharge l'application TOTEM mobi sur mon smartphone et je me connecte avec les identifiants qui m'ont été envoyés par mail.</p>
+                        <div class="row">
+                            <a href="https://itunes.apple.com/fr/app/totem.mobi/id778512885?mt=8"><button type="button" name="button" class="btn btn-primary bouton-telecharger">iOS</button></a>
+                            <a href="https://play.google.com/store/apps/details?id=air.air.TotemAndroid"><button type="button" name="button" class="btn btn-success bouton-telecharger">Android</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-md-3">
+                        <div class="row">
+                            <img src="images/number-three.svg" class="numbers-icons" alt="number 3">
+                        </div>
+                        <p>Je géolocalise les voitures disponibles et je réserve ma Twizy grâce à l'application. Je dispose d'une heure pour récupérer le véhicule.</p>
+                    </div>
+
+                    <div class="col-xs-3 col-md-3">
+                        <div class="row">
+                            <img src="images/number-four.svg" class="numbers-icons" alt="number 4">
+                        </div>
+                        <p>Je badge comme indiqué sur le tableau de bord et je conduis la Twizy ! Le stationnement en surface est gratuit.​</p>
+                        <h6>ATTENTION: NE PAS UTILISER LES PARKINGS SOUTERRAINS</h6>
+                    </div>
+
+                </div>
+                <!-- FIN texte Comment ca marche ?-->
+            </div>
+            <!-- FIN contenu section Comment ca marche ?-->
+            <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="travelMessageCurve2"><polygon points="1280 0 1280 70 0 70" fill="white" class="polygon"></polygon></svg>
+        </div>
+        <!-- FIN Section : Comment ca marche ?-->
+
+
+        <!-- DEBUT Fonctionnement Appli-->
+        <div class="container-fluid section-fonctionnement-appli">
+
+            <!-- Titre Fonctionnement Appli-->
+            <div class="row">
+                <h3 class="text-center titre-fonctionnement-appli"><span class="texte_en_vert">L'APPLI TOTEM.mobi : </span></h3>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 texte-fonctionnement-appli text-right fade">
+
+                    <!-- TWIZY VERT-->
+                    <div class="row">
+                        <div class="col-xs-7 col-sm-offset-2">
+                            <p><span class="texte_en_vert">Twizy verte</span> : Le véhicule est libre et dispose d'une autonomie entre 53 et 80km.</p>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <img src="images/marker-voiture-vert.png" alt="PICTO BLEU" class="img-responsive marker-voiture">
+                        </div>
+                    </div>
+
+                    <!-- TWIZY BLEU-->
+                    <div class="row">
+                        <div class="col-xs-7 col-sm-offset-2">
+                            <p><span class="texte_en_bleu">Twizy bleue</span> : Le véhicule est libre et dispose d'une autonomie entre 32 et 53km.</p>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <img src="images/marker-voiture-bleu.png" alt="PICTO BLEU" class="img-responsive marker-voiture">
+                        </div>
+                    </div>
+
+                    <!-- TWIZY ORANGE-->
+                    <div class="row">
+                        <div class="col-xs-7 col-sm-offset-2">
+                            <p><span class="texte_en_orange">Twizy orange</span> : Le véhicule est libre et dispose d'une autonomie entre 18 et 32km.</p>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <img src="images/marker-voiture-orange.png" alt="PICTO ORANGE" class="img-responsive marker-voiture">
+                        </div>
+                    </div>
+
+                    <!-- PICTO Station verte-->
+                    <div class="row ">
+                        <div class="col-xs-9">
+                            <h4>Les TIPI verts</h4>
+                            <p>Les TIPI <span class="texte_en_vert">verts</span> sont des entreprises ou commerces situés dans les zones vertes . Ils disposent d'une prise charge et d'une place publique sur laquelle vous pouvez récupérer ou brancher un Twizy.</p>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <img src="images/picto-station-verte.png" alt="PICTO Station verte" class="marker-tipi-vert">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- FIN Info partie gauche appli iphone -->
+
+                <!-- Google MAP -->
+                <div class="col-sm-6 text-center map-iphone fade">
+                    <img src="images/iphone-6.png" alt="demo application map totem mobi" class="iphone-under-map">
+                    <div id="map" class="text-center">Veuillez patienter pendant le chargement de la carte...
+                    </div>
+                </div>
+                <!-- FIN Google MAP -->
+
+                <div class="col-sm-3 texte-fonctionnement-appli text-left fade">
+                    <!-- TWIZY ROUGE-->
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img src="images/marker-voiture-rouge.png" alt="PICTO ROUGE" class="img-responsive marker-voiture">
+                        </div>
+                        <div class="col-xs-7">
+                            <p><span class="texte_en_rouge">Twizy rouge</span> : Le véhicule est libre et dispose d'une autonomie inférieure à 18 Km.</p>
+                        </div>
+                    </div>
+
+                    <!-- TWIZY VIOLET-->
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img src="images/marker-voiture-violet.png" alt="PICTO VIOLET" class="img-responsive marker-voiture">
+                        </div>
+                        <div class="col-xs-7">
+                            <p><span class="texte_en_violet">Twizy violet</span> : Ceci est votre réservation en cours.</p>
+                        </div>
+                    </div>
+
+                    <!-- TWIZY GRIS-->
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img src="images/marker-voiture-gris.png" alt="PICTO GRIS" class="img-responsive marker-voiture">
+                        </div>
+                        <div class="col-xs-7">
+                            <p><span class="texte_en_gris">Twizy grise</span> : Ce véhicule est déjà réservé.</p>
+                        </div>
+                    </div>
+
+                    <!-- PICTO Station rouge-->
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img src="images/picto-station-rouge.png" alt="PICTO Station rouge" class="marker-tipi-rouge">
+                        </div>
+
+                        <div class="col-xs-9">
+                            <h4>Les TIPI rouges</h4>
+                            <p>Les TIPI <span class="texte_en_rouge">rouge</span> sont des entreprises qui permettent d'avoir un point de branchement et une zone de stationnement privés.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- FIN Info partie haute appli iphone -->
+
+
+                <!-- Info partie basse appli iphone -->
+                <div class="row text-center info-partie-basse fade">
+                    <!-- iPhone -->
+                    <div class="col-md-4 text-center">
+                        <p>TELECHARGEZ L'APPLI POUR iPHONE</p>
+                        <a href="https://itunes.apple.com/fr/app/totem.mobi/id778512885?mt=8"><button type="button" name="button" class="btn btn-primary bouton-telecharger">iOS</button></a>
+                    </div>
+                    <!-- Mon emplacement-->
+                    <div class="col-md-4">
+                        <img src="images/Point-Mobinaute.png" alt="Mon emplacement">
+                        <h4>Mon emplacement</h4>
+                        <p>Ceci est mon emplacement.</p>
+                    </div>
+
+                    <!-- Android -->
+                    <div class="col-md-4 text-center">
+                        <p>TELECHARGEZ L'APPLI POUR ANDROID</p>
+                        <a href="https://play.google.com/store/apps/details?id=air.air.TotemAndroid"><button type="button" name="button" class="btn btn-success bouton-telecharger">Android</button></a>
+                    </div>
+                </div>
+
+
+                <div class="row text-center memo-totem fade">
+                    <p><strong>RETROUVEZ NOTRE MEMO POUR TOUT CONNAITRE SUR LE FONCTIONNEMENT DE L'APPLICATION</strong></p>
+                </div>
+
+                <!-- Bouton memo TOTEM Mobi -->
+                <div class="row text-center fade">
+                    <button type="button" name="button" class="btn btn-default bouton-s_abonner">MEMO APP TOTEM MOBI</button>
+                </div>
+
+            </div>
+            <!-- FIN Contenu de la Section : Fonctionnement Appli-->
+        </div>
+        <!-- FIN Section : Fonctionnement Appli-->
+
+        <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve" fill="red"><polygon points="1280 0 1280 70 0 70" fill="#f8f8f8"></polygon></svg>
+
+
+        <!-- DEBUT SECTION TARIFS -->
+        <div class="container-fluid section-tarifs">
+            <div class="container">
+                <div class="row">
+                    <h3 class="titre-tarifs text-center"><span class="texte_en_vert">Combien ça coûte ?</span></h3>
+                </div>
+                <div class="row texte-tarifs fade">
+
+                    <!-- Texte section instructions -->
+                    <div class="col-md-6">
+
+                        <ul>
+                            <li>19€ TTC de frais d'inscription</li>
+                            <li>4€ TTC par mois (frais fixes)</li>
+                            <li>1€ TTC par réservation </li>
+                            <li>1€ TTC le 1/4 d'heure de location (à partir de la réservation)</li>
+                            <li>Stationnement <span class="texte_en_vert">GRATUIT</span> !</li>
+                        </ul>
+                        <p>Economiser de l'argent :</p>
+                        <ul>
+                            <li>Je ne paye mon véhicule que le temps de ma réservation.</li>
+                            <li>Je ne dépense rien de plus que ma location.</li>
+                            <li>Je profite du stationnement gratuit et je n'ai aucune autre charge (assurance, maintenance...).</li>
+                        </ul>
+
+                        <p>Une Twizy mise en charge dans l'un de nos Tipi / stations = <strong>une remise</strong> sur votre facture (jusqu'à 3€ TTC de remise). Les remises sont désormais automatisées.</p>
+                        <p>Le <strong>BONUS RECHARGE</strong> est comptabilisé automatiquement en fonction de l'autonomie du véhicule au moment de la mise en charge en fin de réservation.</p>
+
+                    </div>
+
+                    <!-- Image section instructions -->
+                    <div class="col-md-6">
+                        <img src="images/img-05.jpg" alt="image twizy 05" class="img-responsive img-rounded">
+                    </div>
+                </div>
+                <!-- FIN Texte section tarifs -->
+
+                <!-- Bonus Recharge -->
+                <div class="container text-center bonus-recharge fade">
+                    <h3><strong><span class="texte_en_orange">Exemple de BONUS RECHARGE</span></strong></h3>
+
+                    <div class="row text-center">
+                        <div class="col-md-4 image-batterie">
+                            <img src="images/batterie.gif" alt="batterie autonomie">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>1 barres de charge = jusqu'à 3€ remise</h5>
+                            <h5>3 barres de charge = jusqu'à 2€ remise</h5>
+                            <h5>7 barre de charge = jusqu'à 1€ remise</h5>
+                        </div>
+                    </div>
+                    <!-- FIN contenu (barres) : bonus recharge -->
+
+                    <!-- Bouton abonnement TOTEM Mobi -->
+                    <div class="row text-center fade">
+                        <button type="button" name="button" class="btn btn-default bouton-s_abonner">Vous abonner</button>
+                    </div>
+                </div>
+                <!-- FIN bonus recharge -->
+
+                <div class="row text-center fade">
+                    <h4><span class="texte_en_vert">Découvrez notre fiche Mémo afin de mieux comprendre le fonctionnement et l'utilisation de TOTEM mobi </span></h4>
+                    <!-- Bouton memo TOTEM Mobi -->
+                    <div class="row">
+                        <button type="button" name="button" class="btn btn-default bouton-s_abonner">MEMO APP TOTEM MOBI</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIN contenu : section tarifs -->
+            <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve4" fill="red"><polygon points="1280 0 1280 70 0 70" fill="#eee"></polygon></svg>
+        </div>
+        <!-- FIN section : tarifs -->
+
+
+        <!-- DEBUT section utilisateurs -->
+        <div class="container-fluid section-utilisateurs">
+            <div class="container">
+                <div class="row">
+                    <h3 class="text-center titre-fonctionnement-appli fade"><span class="texte_en_vert">Qui peut utiliser le service ?</span></h3>
+                </div>
+
+                <div class="row text-center fade">
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <h3 class="texte_en_vert">Âge minimum</h3>
+                            <p>L’inscription au service TOTEM est accessible à toute personne majeure.</p>
+                        </div>
+                        <div class="row">
+                            <h3 class="texte_en_vert">Permis de conduire</h3>
+                            <p>Afin de profiter du service TOTEM mobi, vous devez disposer d’un permis de conduire B en cours de validité. Les personnes disposant d’un permis jeune conducteur (obtention du permis B depuis moins de 2 ou 3 ans) peuvent utiliser
+                                nos véhicules.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <img src="images/id_card.jpg" alt="id card" class="img-responsive id_card">
+                    </div>
+                </div>
+                <!-- FIN texte section utilisateurs -->
+            </div>
+            <!-- FIN contenu section utilisateurs -->
+            <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve5" fill="red"><polygon points="1280 0 1280 70 0 70" fill="#f8f8f8"></polygon></svg>
+        </div>
+        <!-- FIN section utilisateurs -->
+
+
+        <!-- DEBUT section utilisation-->
+        <div class="container-fluid section-utilisation">
+            <div class="container">
+                <div class="row">
+                    <h3 class="text-center titre-utilisation"><span class="texte_en_vert">Comment utiliser TOTEM ?</span></h3>
+                </div>
+                <p class="text-center">Réservation</p>
+                <p class="text-center">Prise en main du véhicule</p>
+            </div>
+            <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve6" fill="red"><polygon points="1280 0 1280 70 0 70" fill="white"></polygon></svg>
+        </div>
+        <!-- FIN section utilisation -->
+
+
+        <!-- DEBUT TEMOIGNAGES-->
+        <div class="container-fluid section-temoignages">
+            <div class="container">
+
+                <!-- Titre Temoignages-->
+                <div class="row">
+                    <h3 class="text-center titre-fonctionnement-appli fade"><span class="texte_en_vert">Témoignages</span></h3>
+                </div>
+
+                <div class="row text-center">
+
+                    <div class="testimonial-slider owl-carousel fade">
+
+                        <!-- Temoignages 01-->
+                        <div class="testimonial">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus diam massa, vel tincidunt purus pellentesque non. Phasellus feugiat at ex id euismod. Quisque dictum varius mi et interdum. Aenean. </p>
+                            </div>
+                        </div>
+                        <!-- FIN TEMOIGNAGES 01-->
+
+                        <!-- Temoignages 02-->
+                        <div class="testimonial">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus diam massa, vel tincidunt purus pellentesque non. Phasellus feugiat at ex id euismod. Quisque dictum varius mi et interdum. Aenean. </p>
+                            </div>
+                        </div>
+                        <!-- FIN TEMOIGNAGES 02-->
+
+                        <!-- Temoignages 03-->
+                        <div class="testimonial">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus diam massa, vel tincidunt purus pellentesque non. Phasellus feugiat at ex id euismod. Quisque dictum varius mi et interdum. Aenean. </p>
+                            </div>
+                        </div>
+                        <!-- FIN TEMOIGNAGES 03-->
+
+                        <!-- Temoignages 04-->
+                        <div class="testimonial">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus diam massa, vel tincidunt purus pellentesque non. Phasellus feugiat at ex id euismod. Quisque dictum varius mi et interdum. Aenean. </p>
+                            </div>
+                        </div>
+                        <!-- FIN TEMOIGNAGES 04-->
+                        <!-- Temoignages 05-->
+                        <div class="testimonial">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus diam massa, vel tincidunt purus pellentesque non. Phasellus feugiat at ex id euismod. Quisque dictum varius mi et interdum. Aenean. </p>
+                            </div>
+                        </div>
+                        <!-- FIN TEMOIGNAGES 05-->
+
+                        <!-- Temoignages 06-->
+                        <div class="testimonial">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus diam massa, vel tincidunt purus pellentesque non. Phasellus feugiat at ex id euismod. Quisque dictum varius mi et interdum. Aenean. </p>
+                            </div>
+                        </div>
+                        <!-- FIN TEMOIGNAGES 06-->
+
+                    </div>
+                    <!-- FIN slider TEMOIGNAGES-->
+
+                </div>
+                <!-- FIN (row) partie texte/slider TEMOIGNAGES-->
+            </div>
+            <!-- FIN contenu TEMOIGNAGES-->
+
+        </div>
+        <!-- FIN section TEMOIGNAGES-->
+
+        <div class="row text-center">
+            <a href="https://itunes.apple.com/fr/app/totem.mobi/id778512885?mt=8"><button type="button" name="button" class="btn btn-primary bouton-telecharger">iOS</button></a>
+            <a href="https://play.google.com/store/apps/details?id=air.air.TotemAndroid"><button type="button" name="button" class="btn btn-success bouton-telecharger">Android</button></a>
+        </div>
+
+
+        <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve3" fill="#222222"><polygon points="1280 0 1280 70 0 70"></polygon></svg>
+
+        <!-- Pied de page/ footer-->
+        <footer class="pied_de_page_totem">
+            <div class="container-fluid text-center">
+
+                <div class="row">
+                    <p class="texte-pied_de_page_totem"><strong>Suivez totem mobi sur les réseaux sociaux</strong></p>
+                </div>
+
+                <!-- Reseaux sociaux-->
+                <div class="row reseaux_sociaux">
+
+                    <!-- Facebook-->
+                    <a href="http://www.facebook.com/totemmobi"><i class="fa fa-facebook"></i></a>
+
+                    <!-- Twitter-->
+                    <a href="https://twitter.com/TOTEMmobi?lang=fr"><i class="fa fa-twitter"></i></a>
+
+                    <!-- Instagram-->
+                    <a href="https://www.instagram.com/totem.mobi/"><i class="fa fa-instagram"></i></a>
+
+                    <!-- Linkedin-->
+                    <a href="https://www.linkedin.com/company/totem-mobi"><i class="fa fa-linkedin"></i></a>
+
+                    <!-- Mail-->
+                    <a href="mailto:contact@totem-mobi.fr"><i class="fa fa-envelope-o"></i></a>
+
+                </div>
+                <!-- FIN Reseaux sociaux-->
+
+                <div class="row">
+                    <p>© TOTEM mobi</p>
+                </div>
+                <div class="row">
+                    <a href="entreprises.html">Vous êtes une entreprise</a>
+                </div>
+                <div class="row">
+                    <a href="annonceurs.html">Vous êtes un annonceur</a>
+                </div>
+            </div>
+        </footer>
+        <!-- FIN Pied de page/ footer-->
+
+
+    </div>
+    <!-- == FIN du contenu visuel de la page ==-->
+
+    <!-- Les scripts ci-dessous sert pour les animations,  ne pas toucher! -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/animation-on-scroll.js" charset="utf-8"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmnhKFyf85HZ9fYSzSWszql6iPTmVpKt8&callback=initialize"></script>
+    <script src="js/google-map.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</body>
+
+</html>
+<!-- FIN du contenu visuel de la page-->

@@ -1,0 +1,1123 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-accueil {
+    overflow: hidden;
+}
+
+.texte_en_rouge {
+    color: red;
+}
+
+.texte_en_bleu {
+    color: blue;
+}
+
+.texte_en_orange {
+    color: orange;
+}
+
+.texte_en_gris {
+    color: darkgray;
+}
+
+.texte_en_violet {
+    color: purple;
+}
+
+.texte_en_jaune {
+    color: rgb(231, 180, 0);
+}
+
+.texte_en_vert {
+    color: #BBCE01;
+}
+
+.bouton-s_abonner {
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bouton-telecharger {
+    padding: .5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+
+/* STYLE de la barre de navigation */
+
+nav.navbar.navbar-default {
+    border: 0;
+    background-color: #222222;
+}
+
+.nav.navbar-nav>li>a {
+    color: white;
+    font-size: 16px;
+}
+
+.nav.navbar-nav>li>a:hover {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.navbar-nav.navbar-right {
+    padding-right: 50px;
+}
+
+.navbar-nav.navbar-right>li>a {
+    color: white;
+}
+
+.navbar-nav.navbar-right>li>a:hover {
+    border-bottom: 3px solid #BBCE01;
+    color: white;
+}
+
+.img-logo-navbar {
+    width: 4.5em;
+}
+
+
+/* == DEBUT INTRO == */
+
+.bg-intro {
+    background-image: url(images/bg-intro-04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.img-logo_intro {
+    width: 10em;
+    vertical-align: middle;
+}
+
+.soustitre-intro {
+    color: white;
+    font-weight: bold;
+}
+
+.bouton_intro {
+    margin: 0;
+}
+
+.texte-reseaux-sociaux {
+    color: white;
+    font-size: 22px;
+}
+
+.well {
+    margin-top: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+legend > * {
+    color: white;
+}
+
+.bouton {
+  font-family: "Lato";
+  font-size: 20px;
+}
+
+.bouton-promo {
+    background-color: rgb(15, 98, 158);
+    color : white;
+    border: none;
+  /*  display: none; */
+}
+
+.image-promo {
+  /* display: none; */
+}
+
+@font-face {
+  font-family: "housepaint";
+  src: url("fonts/HOUSEPAINT.ttf");
+}
+
+.tribu {
+  font-family: "housepaint";
+  font-size: 32px;
+}
+
+.encart-blog {
+  border:3px dotted darkgreen;
+  height:580px;
+  width: 100%;
+}
+
+/* == FIN INTRO == */
+
+
+/* == DEBUT SECTION OFFRE PROMOS == */
+
+.section-offre_promo {
+    background-color: #f8f8f8;
+    padding: 50px;
+}
+
+.offre_du_moment {
+    /*display : none; */
+}
+
+.soustitre-offre_promo {
+    font-size: 42px;
+}
+
+.texte-offre_promo>p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* == FIN SECTION OFFRE PROMOS == */
+
+
+/* == DEBUT SECTION QU'EST-CE QUE TOTEM == */
+
+.section-qu_est_ce_que_totem {
+    background-color: white;
+    padding: 20px;
+}
+
+.titre-qu_est_ce_que_totem {
+    padding: 20px;
+    font-size: 3em;
+}
+
+.texte-qu_est_ce_que_totem {
+    font-size: 1.2em;
+}
+
+
+/* == FIN SECTION QU'EST-CE QUE TOTEM == */
+
+
+/* == DEBUT SECTION COMMENT CA MARCHE == */
+
+.section-comment_ca_marche {
+    padding: 2em;
+    margin: 0;
+    background-color: #eee;
+}
+
+.titre-comment_ca_marche {
+    padding: 20px;
+    font-size: 3em;
+    width: 80%;
+    background-color: #2c2c2c;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.texte-comment_ca_marche {
+    font-size: 18px;
+}
+
+.numbers-icons {
+    max-width: 25%;
+    margin-bottom: 1em;
+}
+
+
+/* == FIN SECTION COMMENT CA MARCHE == */
+
+
+/* == DEBUT SECTION Fonctionnement Appli == */
+
+.section-fonctionnement-appli {
+    padding: 50px;
+}
+
+.titre-fonctionnement-appli {
+    padding: 20px;
+    font-size: 3em;
+    width: 80%;
+    background-color: #2c2c2c;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.texte-fonctionnement-appli {
+    font-size: 16px;
+    margin-top: 1.5em;
+}
+
+.memo-totem {
+    width: 50%;
+    border-top: .2px solid lightgray;
+    padding-top: 50px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+
+/* == FIN SECTION Fonctionnement Appli == */
+
+
+/* == DEBUT SECTION TARIFS == */
+
+.section-tarifs {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.titre-tarifs {
+    padding: 20px;
+    font-size: 3em;
+    width: 80%;
+    background-color: #2c2c2c;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.texte-tarifs {
+    font-size: 18px;
+    padding: 2em;
+
+}
+
+.bonus-recharge {
+  border-top: .2px solid lightgray;
+  border-bottom: .2px solid lightgray;
+  padding: 50px;
+}
+
+.image-batterie {
+    width: 15%;
+}
+
+/* == FIN SECTION TARIFS == */
+
+
+/* == DEBUT SECTION UTILISATION== */
+
+.section-utilisateurs {
+    padding: 50px;
+    background-color: #eee;
+}
+
+.titre-utilisateurs {
+    margin-top: 0;
+    font-size: 2em;
+    width: 80%;
+    background-color: #2c2c2c;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.texte-utilisateurs {
+    font-size: 18px;
+}
+
+.id_card {
+    width: 55%;
+}
+
+
+/* == FIN SECTION UTILISATION== */
+
+
+/* == DEBUT SECTION UTILISATION== */
+
+.section-utilisation {
+    padding: 3em;
+    background-color: #f8f8f8;
+}
+
+.titre-utilisation {
+    padding: 20px;
+    margin-top: 0;
+    font-size: 3em;
+    width: 80%;
+    background-color: #2c2c2c;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.texte-utilisation {
+    font-size: 18px;
+}
+
+/* == FIN SECTION UTILISATION== */
+
+
+/* == DEBUT SECTION PARTENAIRES == */
+
+.section-partenaires {
+    padding: 50px;
+}
+
+/* == DEBUT SECTION TEMOIGNAGES == */
+
+.section-temoignages {
+    padding: 20px;
+}
+
+/* ici section temoignages */
+
+.testimonial {
+    margin: 0 10px;
+    padding-top: 30px;
+}
+
+.testimonial .description {
+    color: #505050;
+    line-height: 1.8;
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.testimonial .description:before {
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    color: #f2fecc;
+    position: absolute;
+    top: -35%;
+    left: 0;
+    font-size: 70px;
+    z-index: -1;
+}
+
+.testimonial-slider div.owl-item:nth-child(2n) .description:before {
+    color: #fbbe36;
+}
+
+.testimonial-slider div.owl-item:nth-child(3n) .description:before {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+#partenaires-slider div.owl-item:nth-child(2n) .description:before {
+    color: #fbbe36;
+}
+
+#partenaires-slider div.owl-item:nth-child(3n) .description:before {
+    color: #c7c7c7;
+}
+
+.testimonial .testimonial-pic {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.testimonial .testimonial-pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #696969;
+}
+
+.testimonial .testimonial-review {
+    margin: 25px 0 0 25px;
+}
+
+.testimonial .testimonial-title {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0;
+}
+
+.testimonial .testimonial-review span {
+    color: #585858;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #d67c1c;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    opacity: 1;
+}
+
+.owl-theme .owl-controls {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.testimonial>img {
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+
+/* == FIN SECTION PARTENAIRES == */
+
+
+/* == DEBUT PIED DE PAGE TOTEM == */
+
+.pied_de_page_totem {
+    background-color: #222222;
+    color: #d67c1c;
+    padding: 2em;
+}
+
+.texte-pied_de_page_totem {
+    font-size: 22px;
+}
+
+
+/*ici Style des logos réseaux sociaux */
+
+.reseaux_sociaux {
+    padding-bottom: 20px;
+}
+
+i.fa {
+    color: #e3a51a;
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+}
+
+i.fa.fa-facebook:hover {
+    color: #3b5998;
+}
+
+i.fa.fa-twitter:hover {
+    color: #4099FF;
+}
+
+i.fa.fa-instagram:hover {
+    color: #833ab4;
+}
+
+i.fa.fa-linkedin:hover {
+    color: navy;
+}
+
+i.fa.fa-envelope-o:hover {
+    color: red;
+}
+
+
+/* == FIN PIED DE PAGE TOTEM == */
+
+
+/* == DEBUT SECTION Stationnement == */
+
+.section-stationnement {
+    padding: 50px;
+}
+
+.titre-stationnement {
+    padding: 20px;
+    font-size: 3em;
+}
+
+.texte-stationnement {
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+/* == FIN SECTION Stationnement == */
+
+
+/* == DEBUT SECTION DATAMOBILE == */
+
+.section-datamobile {
+    padding: 50px;
+}
+
+.titre-datamobile {
+    padding: 20px;
+    font-size: 3em;
+}
+
+.texte-datamobile {
+    font-size: 16px;
+    padding: 50px;
+}
+
+.sans-puce {
+    list-style: none;
+}
+
+
+/* == FIN SECTION DATAMOBILE == */
+
+
+/* === PAGE 3 - CONDUCTEUR === */
+
+
+/* STYLE de l'en-tête */
+
+.header-conducteur {
+    height: 80vh;
+    background-image: url(images/bg-conducteur.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
+/* == DEBUT SECTION INSTRUCTIONS == */
+
+.section-instructions {
+    padding: 50px;
+}
+
+.titre-instructions {
+    font-size: 2em;
+}
+
+.texte-instructions {
+    font-size: 18px;
+}
+
+
+/* == FIN SECTION INSTRUCTIONS == */
+
+
+/* === PAGE 4 - VOUS ABONNER / CALINDA === */
+
+
+/* STYLE de l'en-tête */
+
+.header-vous_abonner {
+    height: 7vh;
+    background-color: #1a1a1a;
+}
+
+
+/* == DEBUT SECTION CALINDA == */
+
+.section-calinda {
+    padding: 50px;
+}
+
+.calinda {
+    min-height: 650px;
+    min-width: 99%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+/* == FIN SECTION CALINDA == */
+
+
+/* === PAGE 5 - ESPACE Entreprise === */
+
+.page-entreprises {
+    overflow: hidden;
+}
+
+
+/* STYLE de l'en-tête */
+
+.header-entreprises {
+    height: 7vh;
+}
+
+
+/* == DEBUT SECTION STATION TOTEM == */
+
+.section-station_totem {
+    padding: 50px;
+}
+
+.titre-station_totem {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.texte-station_totem {
+    padding: 30px;
+    font-size: 15px;
+}
+
+
+/* == FIN SECTION STATION TOTEM == */
+
+
+/* == DEBUT SECTION TIPI == */
+
+.section-tipi {
+    padding: 50px;
+}
+
+.titre-tipi {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.texte-tipi {
+    padding: 30px;
+    font-size: 16px;
+}
+
+
+/* == FIN SECTION TIPI == */
+
+
+/* === PAGE 6 - ESPACE Annonceur === */
+
+.page-annonceurs {
+    overflow: hidden;
+}
+
+
+/* STYLE de l'en-tête */
+
+.header-annonceurs {
+    height: 50vh;
+    background-image: url(images/bg-annonceurs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
+/* == DEBUT SECTION MEDIA TOTEM == */
+
+.section-media_totem {
+    padding: 50px;
+}
+
+.titre-media_totem {
+    font-size: 2em;
+}
+
+.texte-media_totem {
+    padding: 30px;
+}
+
+
+/* == FIN SECTION MEDIA TOTEM == */
+
+
+/* == DEBUT SECTION RESEAU/MARKETING TOTEM == */
+
+.section-reseau_marketing_totem {
+    padding: 50px;
+    border-bottom: .5px solid lightgray;
+}
+
+.titre-reseau_marketing_totem {
+    font-size: 2em;
+}
+
+.texte-reseau_marketing_totem {
+    padding: 30px;
+    font-size: 16px;
+}
+
+
+/* == FIN SECTION RESEAU/MARKETING TOTEM == */
+
+
+/* == DEBUT SECTION TARIF ANNONCEUR == */
+
+.section-tarif_annonceur {
+    padding: 50px;
+}
+
+.titre-tarif_annonceur {
+    font-size: 2em;
+}
+
+.texte-tarif_annonceur {
+    padding: 30px;
+    font-size: 16px;
+}
+
+
+/* == FIN SECTION TARIF ANNONCEUR == */
+
+
+/* === PAGE 7 - Contact === */
+
+
+/* STYLE de l'en-tête */
+
+.header-contact {
+    height: 50vh;
+    background-image: url(images/bg-intro-01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
+/* == DEBUT SECTION MEDIA TOTEM == */
+
+.page-contact {
+    overflow: hidden;
+}
+
+.section-contact {
+    padding: 50px;
+}
+
+.titre-contact {
+    font-size: 2em;
+}
+
+.texte-contact {
+    padding: 30px;
+}
+
+.boutton_assistance {
+    margin: 2em;
+    padding: 10px;
+}
+
+.boutton_envoyer {
+    margin: 2em;
+    padding: 10px;
+}
+
+.formulaire_contact {
+    padding-right: 5em;
+}
+
+label {
+    padding: .5em;
+}
+
+#mapContact {
+    height: 300px;
+    border-radius: 10px
+}
+
+#commentaire {
+    height: 10em;
+}
+
+.form-control {
+    background-color: #f2f2f2;
+}
+
+
+/* == FIN SECTION MEDIA TOTEM == */
+
+
+/* === PAGE 8 - FAQ === */
+
+
+/* == DEBUT SECTION TELECHARGEMENT == */
+
+.section-telechargement {
+    padding: 50px;
+}
+
+
+/* == FIN SECTION TELECHARGEMENT == */
+
+
+/* == DEBUT SECTION FAQ == */
+
+
+/* STYLE de l'en-tête */
+
+.header-faq {
+    height: 80vh;
+    background-image: url(images/bg-conducteur.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.section-faq {
+    padding: 50px;
+    border-bottom: .5px solid lightgray;
+}
+
+.titre-faq {
+    padding: 20px;
+    font-size: 2em;
+}
+
+.texte-faq {
+    padding: 30px;
+    font-size: 16px;
+}
+
+
+/* == FIN SECTION FAQ == */
+
+
+/* === PAGE 9 - ID MDPASSE=== */
+
+
+/* STYLE de l'en-tête */
+
+.header-id_mdp {
+    height: 80vh;
+    background-image: url(images/bg-contact.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
+/* == DEBUT FAQ == */
+
+.section-id_mdp {
+    padding: 50px;
+    border-bottom: .5px solid lightgray;
+}
+
+.titre-id_mdp {
+    font-size: 2em;
+}
+
+.texte-id_mdp {
+    padding: 30px;
+    font-size: 16px;
+}
+
+
+/* == FIN FAQ == */
+
+
+/* == CORRECTION ELEMENTS DU SITE== */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ol>li {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.active {
+    border-bottom: 4px solid #BBCE01;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+i.fa.intro-reseaux {
+    color: white;
+    padding-top: 20px;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fixedNavbar {
+    background-color: black;
+}
+
+#border {
+    width: 40%;
+    height: 2px;
+    background-color: white;
+    color: red;
+    margin: 0 auto;
+}
+
+#headerCurve {
+    background-color: white;
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 25px;
+    bottom: 0;
+    left: 0px;
+}
+
+#headerCurve2 {
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 25px;
+    bottom: 0;
+    left: 30px;
+}
+
+#headerCurve3 {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: 5px;
+    bottom: 0;
+    left: 30px;
+}
+
+#headerCurve4 {
+    background-color: #f8f8f8;
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 55px;
+}
+
+#headerCurve5 {
+    background-color: #eee;
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 55px;
+}
+
+#headerCurve6 {
+    background-color: #f8f8f8;
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 55px;
+    bottom: 0;
+    left: -50px;
+}
+
+#travelMessageCurve {
+    background-color: #f8f8f8;
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 55px;
+    bottom: 0;
+    left: -50px;
+}
+
+#travelMessageCurve2 {
+    position: relative;
+    width: 120%;
+    height: 70px;
+    top: 35px;
+    bottom: 0;
+    left: 30px;
+}
+
+
+/* == Back to Top button == */
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    background: #1b1b1b;
+    color: #f5f5f5;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+    border: .2px solid #BBCE01;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background: #3b3b3b;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+
+/* == TWITTER == */
+
+.twitter {
+    border: 2px solid #E6EAEA;
+    width: 20%;
+    height: 160px;
+    background-color: white;
+    box-shadow: 2px 5px 5px 0px #656565;
+    overflow: scroll;
+}
+
+
+/* == MAP == */
+
+#map {
+    height: 80%;
+    width: 40%;
+    border-radius: 10px;
+    border: .5px solid #bebebe;
+    margin: 0 auto;
+    z-index: 5;
+    position: absolute;
+    top: 8%;
+    right: 30%;
+}
+
+.iphone-under-map {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.marker-voiture {
+    margin-bottom: 3em;
+}
+
+.marker-voiture>img {
+    width: 50%;
+    right: 10px;
+    top: 0;
+    margin: 0
+}
+
+.marker-tipi-vert>img {
+  right: 10px;
+  top: 0;
+  margin: 0
+}
+
+.marker-tipi-rouge>img {
+  left: 50px;
+  top: 0;
+  margin: 0
+}
+
+
+/* == ANIMATIONS == */
+
+.fade {
+    opacity: 0;
+}

@@ -28,7 +28,7 @@ function initialize() {
 }
 
 $(document).ready(function() {
-    $.getJSON("://tcs-dev.totem.mobi/api/Zones?access_token=5l84OeVvSnhqg0cxHvvSPU3AoqpIDYHvl5JCD57UoJLIpAEirmbFAdUwjcQEFsGZ", function(jsonZones) {
+    $.getJSON("https://tcs.totem.mobi/api/Zones?access_token=5l84OeVvSnhqg0cxHvvSPU3AoqpIDYHvl5JCD57UoJLIpAEirmbFAdUwjcQEFsGZ", function(jsonZones) {
         $.each(jsonZones, function(key, data) {
             let latLng = new google.maps.LatLng(data.position.lat, data.position.lng);
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $.getJSON("://tcs-dev.totem.mobi/api/Vehicles?access_token=5l84OeVvSnhqg0cxHvvSPU3AoqpIDYHvl5JCD57UoJLIpAEirmbFAdUwjcQEFsGZ", function(jsonVehicules) {
+    $.getJSON("https://tcs.totem.mobi/api/Vehicles?access_token=5l84OeVvSnhqg0cxHvvSPU3AoqpIDYHvl5JCD57UoJLIpAEirmbFAdUwjcQEFsGZ", function(jsonVehicules) {
         $.each(jsonVehicules, function(key, data) {
             let latLng = new google.maps.LatLng(data.position.lat, data.position.lng);
 

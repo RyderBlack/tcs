@@ -1076,14 +1076,14 @@ a:hover {
 
 #map {
     height: 80%;
-    width: 40%;
+    width: 80%;
     border-radius: 10px;
     border: .5px solid #bebebe;
     margin: 0 auto;
     z-index: 5;
     position: absolute;
-    top: 8%;
-    right: 30%;
+    top: 10%;
+    left: 10%;
 }
 
 .iphone-under-map {

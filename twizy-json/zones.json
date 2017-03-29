@@ -1,0 +1,482 @@
+[
+  {
+    "radius": 2570,
+    "id": 1,
+    "name": "Twizy",
+    "description": null,
+    "position": {
+      "lat": 43.290352,
+      "lng": 5.37577
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 2,
+    "name": "Haribo",
+    "description": null,
+    "position": {
+      "lat": 43.331663,
+      "lng": 5.376486
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 250,
+    "id": 3,
+    "name": "EDF Allar",
+    "description": null,
+    "position": {
+      "lat": 43.3227778,
+      "lng": 5.3652777
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 4,
+    "name": "EDF Prado",
+    "description": null,
+    "position": {
+      "lat": 43.267759,
+      "lng": 5.382413
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 5,
+    "name": "EDF Viton",
+    "description": null,
+    "position": {
+      "lat": 43.260506,
+      "lng": 5.406053
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 6,
+    "name": "MPM la Glacière",
+    "description": null,
+    "position": {
+      "lat": 43.317707,
+      "lng": 5.388083
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 7,
+    "name": "MPM Vernet",
+    "description": null,
+    "position": {
+      "lat": 43.263751,
+      "lng": 5.380613
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 8,
+    "name": "Kedge Luminy",
+    "description": null,
+    "position": {
+      "lat": 43.232528,
+      "lng": 5.433584
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 0,
+    "id": 9,
+    "name": "Mairie 11-12 Marseille",
+    "description": null,
+    "position": {
+      "lat": 43.296962,
+      "lng": 5.442704
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 10,
+    "name": "Valentine Vallée Verte",
+    "description": null,
+    "position": {
+      "lat": 43.288031,
+      "lng": 5.495545
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 11,
+    "name": "Gare de la Penne sur Huveaune",
+    "description": null,
+    "position": {
+      "lat": 43.284549,
+      "lng": 5.516375
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 12,
+    "name": "Port de Cassis",
+    "description": null,
+    "position": {
+      "lat": 43.213333,
+      "lng": 5.538055
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 13,
+    "name": "Marseille Innovation",
+    "description": null,
+    "position": {
+      "lat": 43.344324,
+      "lng": 5.431446
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 14,
+    "name": "Gare d'Aubagne",
+    "description": null,
+    "position": {
+      "lat": 43.294995,
+      "lng": 5.566912
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 600,
+    "id": 15,
+    "name": "Saint Barnabe",
+    "description": null,
+    "position": {
+      "lat": 43.303921,
+      "lng": 5.417536
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 350,
+    "id": 16,
+    "name": "Pointe rouge",
+    "description": null,
+    "position": {
+      "lat": 43.243252,
+      "lng": 5.369861
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 0,
+    "id": 17,
+    "name": "Oxford Estudines",
+    "description": null,
+    "position": {
+      "lat": 43.3442826,
+      "lng": 5.438614
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 18,
+    "name": "Gare de Cassis",
+    "description": null,
+    "position": {
+      "lat": 43.247716,
+      "lng": 5.438863
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 19,
+    "name": "Vaufrege",
+    "description": null,
+    "position": {
+      "lat": 43.234098,
+      "lng": 5.553075
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 20,
+    "name": "King Arnaud",
+    "description": null,
+    "position": {
+      "lat": 49.541307,
+      "lng": 1.196684
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 21,
+    "name": "EFS Prado",
+    "description": null,
+    "position": {
+      "lat": 43.2659099,
+      "lng": 5.3801969
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 22,
+    "name": "Renault Guyancourt",
+    "description": null,
+    "position": {
+      "lat": 48.758113,
+      "lng": 2.07736
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 23,
+    "name": "Pas des Lanciers, Marignane",
+    "description": null,
+    "position": {
+      "lat": 43.407446,
+      "lng": 5.255522
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 24,
+    "name": "Le Jaï, Marignane",
+    "description": null,
+    "position": {
+      "lat": 43.431613,
+      "lng": 5.190415
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 1000,
+    "id": 25,
+    "name": "Marignane",
+    "description": null,
+    "position": {
+      "lat": 43.418347,
+      "lng": 5.212023
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 26,
+    "name": "La Colline, Marignane",
+    "description": null,
+    "position": {
+      "lat": 43.411755,
+      "lng": 5.234951
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 27,
+    "name": "Haribo 2",
+    "description": null,
+    "position": {
+      "lat": 43.334302,
+      "lng": 5.371308
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 0,
+    "id": 28,
+    "name": "hotel cité radieuse",
+    "description": null,
+    "position": {
+      "lat": 43.261708,
+      "lng": 5.396245
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 150,
+    "id": 29,
+    "name": "AGORA Aubagne",
+    "description": null,
+    "position": {
+      "lat": 43.286988,
+      "lng": 5.603121
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 30,
+    "name": "AFPA La Treille",
+    "description": null,
+    "position": {
+      "lat": 43.310835,
+      "lng": 5.506285
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 31,
+    "name": "GRETA",
+    "description": null,
+    "position": {
+      "lat": 43.273863,
+      "lng": 5.424641
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 32,
+    "name": "QUARTIER DE JOUQUES",
+    "description": null,
+    "position": {
+      "lat": 43.279821,
+      "lng": 5.62288
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 33,
+    "name": "ST MARTIN",
+    "description": null,
+    "position": {
+      "lat": 43.282483,
+      "lng": 5.611631
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 34,
+    "name": "ALINEA",
+    "description": null,
+    "position": {
+      "lat": 43.296385,
+      "lng": 5.59669
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 100,
+    "id": 35,
+    "name": " LE CARBURATEUR",
+    "description": null,
+    "position": {
+      "lat": 43.332239,
+      "lng": 5.358949
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 39,
+    "name": "CHÂTEAU DE JOUQUES",
+    "description": null,
+    "position": {
+      "lat": 43.280055,
+      "lng": 5.61293
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 40,
+    "name": "GEMALTO Aubagne",
+    "description": null,
+    "position": {
+      "lat": 43.28192,
+      "lng": 5.617097
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 43,
+    "name": "brasserie le mazagran ",
+    "description": null,
+    "position": {
+      "lat": 43.447888,
+      "lng": 5.24929
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 44,
+    "name": "SARTORIUS",
+    "description": "",
+    "position": {
+      "lat": 43.286537,
+      "lng": 5.607137
+    },
+    "isPublic": null,
+    "status": "active"
+  },
+  {
+    "radius": 50,
+    "id": 45,
+    "name": "Vert Eurasia",
+    "description": "",
+    "position": {
+      "lat": 43.281048,
+      "lng": 5.619273
+    },
+    "isPublic": null,
+    "status": "active"
+  }
+]
